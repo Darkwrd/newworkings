@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+    <style>
+        form div {
+            margin-bottom: 8px;
+        }
+
+        .btn {
+            border: none;
+            padding: 12px 24px;
+            background-color: lightblue;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            border: 2px solid lightblue;
+            color: lightblue;
+            background-color: transparent;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class on Form Tags</h1>
+
+    <form>
+        <div>
+            <label>First Name:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Last Name:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label>Age:</label>
+            <input type="number">
+        </div>
+
+        <div>
+            <label>State Of Origin:</label>
+            <select>
+                <option selected value="">Select your State</option>
+                <option value="">ANAMBRA</option>
+                <option value="">ENUGU</option>
+                <option value="">KADUNA</option>
+                <option value="">LAGOS</option>
+            </select>
+        </div>
+
+        <!-- checkbox -->
+        <div>
+            <label>Choose your favourite cars:</label>
+            <input type="checkbox" name="cars" value="toyota"> Toyota
+            <input type="checkbox" name="cars" value="honda"> Honda
+            <input type="checkbox" name="cars" value="hyundai"> hyundai
+            <input type="checkbox" name="cars" value="ford"> Ford
+        </div>
+
+        <div>
+            <label>Choose your favourite footballers:</label>
+            <input type="radio" name="footballer" value="ronaldo"> Ronaldo
+            <input type="radio" name="footballer" value="messi"> Messi
+            <input type="radio" name="footballer" value="mbappe"> Mbappe
+            <input type="radio" name="golf" value="haaland"> Haaland
+        </div>
+
+        <input type="submit" value="send" class="btn">
+
+        <button type="submit" class="btn">Click Me</button>
+
+    </form>
+    <br><br>
+    <a href="#" class="btn">Just Click</a>
+</body>
+</html>
